@@ -143,7 +143,7 @@ Grain: OrderNumber + OrderDate + Delivery Region Index
 sales-performance-risk-analysis/
 ├── sales_performance_risk_analysis.ipynb
 ├── regional_sales_dataset.xlsx
-├── sales_performance_report.pbix
+├── sales_performance_risk_analysis_report.pbix
 ├── screenshots/
 │   ├── page1_executive_overview.png
 │   ├── page2_product_channel.png
