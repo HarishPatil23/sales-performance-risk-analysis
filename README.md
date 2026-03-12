@@ -170,7 +170,7 @@ pip install pandas numpy matplotlib seaborn openpyxl
 - Run all cells top to bottom
 
 **Power BI Report:**
-Open `sales_performance_report.pbix` in Power BI Desktop.
+Open `sales_performance_risk_analysis_report.pbix` in Power BI Desktop.
 Update the data source path to your local dataset if prompted.
 
 ---
