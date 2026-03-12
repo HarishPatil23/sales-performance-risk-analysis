@@ -181,8 +181,8 @@ Update the data source path to your local dataset if prompted.
 MBA (Marketing & HR) | Data Analytics
 
 Combining a business management background with hands-on 
-data analytics — this project demonstrates end-to-end 
+data analytics - this project demonstrates end-to-end 
 analytical workflow from raw data validation and exploratory 
 analysis through to executive reporting in Power BI.
 
-[LinkedIn](linkedin.com/in/harish-patil23) · [GitHub](https://github.com/HarishPatil23)
+[LinkedIn](https://www.linkedin.com/in/harish-patil23/) · [GitHub](https://github.com/HarishPatil23)
