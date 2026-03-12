@@ -1,5 +1,5 @@
-# End-to-End Sales Performance & Risk Analysis
-### Acme Co. | US Sales Analytics | 2014–2017
+# Sales Performance & Risk Analysis
+### Acme Co. | US Sales Analytics | 2014-2017
 
 ---
 
@@ -9,7 +9,7 @@ An end-to-end analytics project examining four years of sales data for
 Acme Co., a multi-region US sales organization. The analysis evaluates
 revenue and profit trends, product and channel performance, geographic
 distribution, budget variance, and portfolio concentration risk -
-culminating in strategic recommendations for leadership.
+resulting in strategic recommendations for leadership.
 
 ---
 
@@ -36,7 +36,7 @@ culminating in strategic recommendations for leadership.
 
 ## Dataset
 
-Acme Co. USA Regional Sales Data (2014–2018)
+Acme Co. USA Regional Sales Data (2014-2018)
 
 | Table | Description | Rows |
 |---|---|---|
@@ -47,13 +47,15 @@ Acme Co. USA Regional Sales Data (2014–2018)
 | State Regions | State-to-macro-region mapping | 48 |
 | Budget 2017 | Product-level revenue targets | 30 |
 
-**Analysis scope:** 2014–2017 (61,626 records).
-2018 excluded - partial year (January–February only).
+**Analysis scope:** 2014-2017 (61,626 records).
+2018 excluded - partial year (January-February only).
 
 **Data Grain:**
 Each order contains six product-line records due to multiple
 delivery region allocations per order.
-
+```
+Grain: OrderNumber + OrderDate + Delivery Region Index
+```
 ---
 
 ## Analytical Scope
@@ -76,12 +78,12 @@ delivery region allocations per order.
 
 | Dimension | Finding | Risk Level |
 |---|---|---|
-| Revenue trend | Stable 2014–2016; mild decline in 2017 (-1.5% from peak) | Low |
-| Profit margin | 37.3%–37.5% weighted; zero erosion across 4 years | Low |
+| Revenue trend | Stable 2014-2016; mild decline in 2017 (-1.5% from peak) | Low |
+| Profit margin | 37.3%-37.5% weighted; zero erosion across 4 years | Low |
 | Product mix | Product margins show minimal variation across the portfolio | Low |
 | Channel mix | Margins are highly consistent across Wholesale, Distributor, and Export channels | Low |
 | Regional concentration | 993 regions; top region < 0.2% of revenue | Very Low |
-| Macro-region | West leads (30%); Northeast lags (17%) — volume gap only | Low-Medium |
+| Macro-region | West leads (30%); Northeast lags (17%) - volume gap only | Low-Medium |
 | Budget performance | +17% outperformance in 2017; 28 of 30 products exceeded target | Positive |
 | Portfolio concentration | Top 10 products = ~60% revenue; no single-product dependency risk | Moderate |
 | Customer concentration | Top 10 customers = 8.84% revenue; highly fragmented | Very Low |
@@ -106,7 +108,7 @@ delivery region allocations per order.
 
 ---
 
-## Power BI Report — 5 Pages
+## Power BI Report - 5 Pages
 
 | Page | Purpose |
 |---|---|
@@ -138,12 +140,10 @@ delivery region allocations per order.
 
 ## Repository Structure
 ```
-├── notebook/
-│   └── End-to-End_Sales_Performance___Risk_Analysis.ipynb
-├── data/
-│   └── Regional_Sales_Dataset.xlsx
-├── dashboard/
-│   └── Sales_Performance_Report.pbix
+sales-performance-risk-analysis/
+├── sales_performance_risk_analysis.ipynb
+├── regional_sales_dataset.xlsx
+├── sales_performance_report.pbix
 ├── screenshots/
 │   ├── page1_executive_overview.png
 │   ├── page2_product_channel.png
@@ -157,19 +157,22 @@ delivery region allocations per order.
 
 ## How to Run
 
-**Python Notebook:**
+**Requirements:**
 ```bash
-pip install pandas numpy matplotlib seaborn openpyxl jupyter
-jupyter notebook notebook/End-to-End_Sales_Performance___Risk_Analysis.ipynb
+pip install pandas numpy matplotlib seaborn openpyxl
 ```
 
-**Note:** Update `file_path` in Section 3 to point to your local
-copy of `Regional_Sales_Dataset.xlsx` before running.
+**Open in VS Code:**
+- Install the Jupyter extension in VS Code
+- Open `sales_performance_risk_analysis.ipynb`
+- Update `file_path` in Section 3 to point to your local
+  copy of `regional_sales_dataset.xlsx`
+- Run all cells top to bottom
 
 **Power BI Report:**
-Open `Sales_Performance_Report.pbix` in Power BI Desktop.
+Open `sales_performance_report.pbix` in Power BI Desktop.
 Update the data source path to your local dataset if prompted.
-
+```
 ---
 
 ## Author
@@ -182,7 +185,7 @@ data analytics — this project demonstrates end-to-end
 analytical workflow from raw data validation and exploratory 
 analysis through to executive reporting in Power BI.
 
-[LinkedIn](linkedin.com/in/harish-patil23) · [GitHub]([your-github-url](https://github.com/HarishPatil23))
+[LinkedIn](linkedin.com/in/harish-patil23) · [GitHub](https://github.com/HarishPatil23)
 ```
 
 ---
