@@ -186,6 +186,3 @@ analytical workflow from raw data validation and exploratory
 analysis through to executive reporting in Power BI.
 
 [LinkedIn](linkedin.com/in/harish-patil23) · [GitHub](https://github.com/HarishPatil23)
-```
-
----
