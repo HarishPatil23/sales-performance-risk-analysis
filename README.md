@@ -122,19 +122,19 @@ Grain: OrderNumber + OrderDate + Delivery Region Index
 
 ## Dashboard Preview
 
-### Page 1 — Executive Overview
+### Page 1 - Executive Overview
 ![Executive Overview](page1_executive_overview.png)
 
-### Page 2 — Product & Channel Performance
+### Page 2 - Product & Channel Performance
 ![Product & Channel](page2_product_channel.png)
 
-### Page 3 — Regional Performance
+### Page 3 - Regional Performance
 ![Regional Performance](page3_regional_performance.png)
 
-### Page 4 — Budget vs Actual 2017
+### Page 4 - Budget vs Actual 2017
 ![Budget vs Actual](page4_budget_vs_actual.png)
 
-### Page 5 — Portfolio Risk & Concentration
+### Page 5 - Portfolio Risk & Concentration
 ![Portfolio Risk](page5_portfolio_concentration.png)
 
 
@@ -172,7 +172,7 @@ pip install pandas numpy matplotlib seaborn openpyxl
 **Power BI Report:**
 Open `sales_performance_report.pbix` in Power BI Desktop.
 Update the data source path to your local dataset if prompted.
-```
+
 ---
 
 ## Author
