@@ -123,19 +123,19 @@ Grain: OrderNumber + OrderDate + Delivery Region Index
 ## Dashboard Preview
 
 ### Page 1 - Executive Overview
-![Executive Overview](screenshots/page1_executive_overview.png) 
+![Executive Overview](assets/page1_executive_overview.png) 
 
 ### Page 2 - Product & Channel Performance
-![Product & Channel](screenshots/page2_product_channel.png)
+![Product & Channel](assets/page2_product_channel.png)
 
 ### Page 3 - Regional Performance
-![Regional Performance](screenshots/page3_regional_performance.png)
+![Regional Performance](assets/page3_regional_performance.png)
 
 ### Page 4 - Budget vs Actual 2017
-![Budget vs Actual](screenshots/page4_budget_vs_actual.png)
+![Budget vs Actual](assets/page4_budget_vs_actual.png)
 
 ### Page 5 - Portfolio Risk & Concentration
-![Portfolio Risk](screenshots/page5_portfolio_concentration.png)
+![Portfolio Risk](assets/page5_portfolio_concentration.png)
 
 
 ## Repository Structure
